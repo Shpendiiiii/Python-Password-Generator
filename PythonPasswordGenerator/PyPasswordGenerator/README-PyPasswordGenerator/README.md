@@ -9,6 +9,7 @@ The length of the password must be specified by the user and it must be a minimu
 <br>
 To generate a password, call the generate() function and pass in the desired password length as an argument.
 <img src="generate.png">
+<br>
 The generated password will be displayed in the console, ready to be copied and used.
 
 # Features
