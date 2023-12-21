@@ -27,22 +27,21 @@ def generate(usrInpt):
 
     modulo = usrInpt % dividee
 
-
 	for i in range(0, res + modulo):
-  		randIntLetters = random.randint(0, 25)
-  		password.append(lowerC[randIntLetters])
-
+		randIntLetters = random.randint(0, 25)
+		password.append(lowerC[randIntLetters])
+	
 	for i in range(0, res):
-  		randIntSymbols = random.randint(0, 30)
-  		password.append(symbols[randIntSymbols])
-
+		randIntSymbols = random.randint(0, 30)
+		password.append(symbols[randIntSymbols])
+	
 	for i in range(0, res):
-  		randIntNumbers = random.randint(0, 9)
-  		password.append(numbers[randIntNumbers])
-
+		randIntNumbers = random.randint(0, 9)
+		password.append(numbers[randIntNumbers])
+	
 	for i in range(0, res):
-  		randIntLetters = random.randint(0, 25)
-  		password.append(upperC[randIntLetters])
+		randIntLetters = random.randint(0, 25)
+		password.append(upperC[randIntLetters])
 
     random.shuffle(password)
 
